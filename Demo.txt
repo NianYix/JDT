@@ -1,0 +1,84 @@
+你现在是一个资深后端架构师和 AI Coding Engineer。
+
+我们正在开发一个名为 AI Engineering Copilot 的项目。
+
+项目目标：
+这是一个面向软件研发团队的 AI Engineering Platform。
+后续将支持：
+1. Requirement Analysis
+2. Technical Planning
+3. AI Coding
+4. Automated Testing
+5. AI Code Review
+6. AI Debugging
+7. Development Metrics
+
+当前阶段只实现项目基础工程，不实现任何 AI Agent 功能。
+
+技术栈：
+
+Backend:
+- Python 3.12
+- FastAPI
+- SQLAlchemy 2.x
+- Pydantic v2
+- Alembic
+- PostgreSQL
+- Redis
+
+Frontend:
+- React
+- TypeScript
+- Vite
+- Ant Design
+
+Infrastructure:
+- Docker
+- Docker Compose
+
+要求：
+
+1. 先阅读当前项目目录。
+2. 如果项目为空，从零创建项目。
+3. 不要一次性实现业务功能。
+4. 当前只建立基础工程架构。
+5. Backend 必须可以独立启动。
+6. Frontend 必须可以独立启动。
+7. PostgreSQL 和 Redis 使用 Docker Compose。
+8. Backend 通过环境变量读取数据库和 Redis 配置。
+9. 配置必须区分 development / test / production。
+10. 使用 .env.example，但不要提交真实密码。
+11. 配置 CORS。
+12. 增加 /health API。
+13. 增加统一异常处理。
+14. 增加基础日志。
+15. 增加 pytest 测试框架。
+16. Frontend 增加基础 Layout 和 Dashboard 页面。
+17. 不要实现 User、Project、Agent 等业务 Model。
+18. 不要引入 LangChain、LangGraph 等 Agent Framework。
+19. 暂时不要实现任何 LLM API。
+20. 不要为了炫技增加不必要的依赖。
+
+工程要求：
+
+- 使用清晰的分层架构。
+- API / Service / Repository 分层。
+- 使用 Type Hint。
+- 使用 async/await 时要有明确理由。
+- 所有配置集中管理。
+- 避免全局可变状态。
+- 所有关键代码增加必要注释。
+- 代码必须可以运行。
+- 不要生成伪代码。
+
+完成后：
+
+1. 输出项目结构。
+2. 输出你做出的架构决策。
+3. 输出安装和启动方式。
+4. 运行 Backend Test。
+5. 检查 Frontend Build。
+6. 检查 Docker Compose 配置。
+7. 最后告诉我有哪些事情没有实现。
+
+在没有完成上述分析之前，不要开始大规模修改代码。
